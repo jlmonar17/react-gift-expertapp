@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para <GifGrid /> Debe de mostrar items cuando se cargan imagenes con useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__pulse"
+  >
+    Dragon Ball
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Dragon Ball GIF"
+      url="https://localhost/imagen.jpg"
+    />
+    <GifGridItem
+      id="DEF"
+      key="DEF"
+      title="Naruto GIF"
+      url="https://localhost/naruto.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas para <GifGrid /> Probando que GifGrid se renderice sin items cuando aun no se llama a las imágenes con useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__pulse"
+  >
+    Dragon Ball
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
